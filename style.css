@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #6f8ea9	
+  background-color: #003b6f	
 ;
   font-family: 'Slabo 27px', serif;
 }
@@ -64,7 +64,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #a6b8c7;
+  background-color: #6f8ea9;
   @media (max-width: 600px) {
     flex-wrap: wrap;
   }
@@ -155,14 +155,16 @@ nav ul{
     height: 30px;
     margin: 15px 0;
     border: 0;
-    background-color: #00203c;
-    color: #6f8ea9;
+    background-color: #6f8ea9;
+    color: #00203c;
 }
 #content input[type="submit"]:hover {
-      background-color: #003b6f;
-      color: black;
+      background-color: #00203c;
       transition: background-color 1s;
+      color: #6f8ea9;
       transition: color 1s;
+      
+  
     }
 
 
@@ -257,20 +259,20 @@ nav ul{
 .optionset button {
   border: 0;
   margin: 15px 0;
-  background-color: #00203c;
-    color: #6f8ea9;
-  
+  background-color: #6f8ea9;
+  color: #00203c;
+  transition: background-color 1s ease;
+  transition: color 1s;
   @media (max-width: 800px) {
     flex-direction: column;
   
-  
+  /*fix transition for background color here and submit*/
   }
   }
 .optionset button:hover {
-  background-color: #003b6f;
-  color: black;
-  transition: background-color 1s;
-  transition: color 1s;
+  background-color: #00203c;
+  color: #6f8ea9;
+  
 }
 
 /*footer*/ 
