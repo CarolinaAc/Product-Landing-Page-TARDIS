@@ -184,7 +184,7 @@ nav ul{
     height: 125px;
     
     width: 20vw;
-    color: #003b6f;
+    color: #a6b8c7;
 
     @media (max-width: 550px) {
       display: none;
@@ -206,7 +206,9 @@ nav ul{
       height: 150px;
     }
   }
-
+p, li{
+  color: white;
+}
 
 
 /*how it works*/ 
@@ -240,7 +242,7 @@ nav ul{
   }
 
 .level {
-  background-color: #627f97;
+  background-color: #6f8ea9;
   color: darkblue;
   padding: 15px 0;
   width: 100%;
@@ -278,7 +280,7 @@ nav ul{
 /*footer*/ 
 footer {
   margin-top: 30px;
-  background-color: #a6b8c7;
+  background-color: #6f8ea9;
   padding: 20px;
 }
 footer  ul {
